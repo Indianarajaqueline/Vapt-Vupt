@@ -1,0 +1,49 @@
+<html>
+<head>
+<title> - CADASTRO DO PASSAGEIRO </title>
+
+</head>
+
+<body>
+<form action="/" id="form-cadastro">
+
+<div id="title"><b>CADASTRO DO PASSAGEIRO</b></div>
+
+<div class="div-input">
+   <span class="label-input"> Nome/Sobrenome:</span>
+   <input class="input-cadastro" type="text" maxleng ="60" pattern=" [a-z0-9_%+-]+@[a-z0-9.-]+\.[a-z]{2}$" placerholder="meunome@hotmail.com">
+   </div>
+   
+   <div class="div-input">
+   <span class="label-input">Telefone:</span>
+   <input class="input-cadastro" type="passaword" required minlength="6" placerholder="minimo 6 caraccteres">
+   </div>
+   
+    
+   <div class="div-input">
+   <span class="label-input">Endereço</span>
+   <input class="input-cadastro" type="text" required pattern="6" placerhold=" 50 kg">
+   </div>
+   
+   <div class="div-input">
+   <span class="label-input">CPF:</span>
+  <input class="input-cadastro" type="text" required pattern="\d{11}" placeholder="000.000.000-00">
+   </div>
+   
+   <div class ="div-input">
+   <span class="label-input"> Data de Nascimento</span>
+   <input class="input-cadastro" type="date" required min="1922-08-04">
+   </div>
+   <div class="div-input">
+   <span class ="label-input"> Foto:</span>
+   <input class="input-cadastro input foto" type="file" required data-max-size="2048">
+   </div>
+   <div>
+   
+   <button id="btn-cadastrar" type="submit"> CADASTRAR</button>
+   </div>
+   </form>
+   </body>
+   </html>
+   
+   
